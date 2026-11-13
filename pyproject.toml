@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tender_dynamic_pipeline"
+version = "0.1.0"
+description = "Deterministic PDF extraction and OKF bundle generation pipeline."
+authors = [
+    { name = "Sowmya K V" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.24.0",
+    "pyyaml>=6.0",
+    "click>=8.1.0",
+    "pydantic>=2.0.0"
+]
+
+[project.scripts]
+tender-pipeline = "tender_dynamic_pipeline.cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
