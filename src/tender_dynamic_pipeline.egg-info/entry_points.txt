@@ -1,0 +1,2 @@
+[console_scripts]
+tender-pipeline = dynamic_pipeline.cli:main

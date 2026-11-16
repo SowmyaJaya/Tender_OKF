@@ -1,0 +1,17 @@
+pyproject.toml
+src/dynamic_pipeline/__init__.py
+src/dynamic_pipeline/cli.py
+src/dynamic_pipeline/schema.py
+src/dynamic_pipeline/state_manager.py
+src/extraction/__init__.py
+src/extraction/heuristic_parser.py
+src/extraction/pdf_processor.py
+src/generation/__init__.py
+src/generation/okf_generator.py
+src/generation/okf_templates.py
+src/tender_dynamic_pipeline.egg-info/PKG-INFO
+src/tender_dynamic_pipeline.egg-info/SOURCES.txt
+src/tender_dynamic_pipeline.egg-info/dependency_links.txt
+src/tender_dynamic_pipeline.egg-info/entry_points.txt
+src/tender_dynamic_pipeline.egg-info/requires.txt
+src/tender_dynamic_pipeline.egg-info/top_level.txt
