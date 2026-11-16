@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-tender-pipeline = "tender_dynamic_pipeline.cli:main"
+tender-pipeline = "dynamic_pipeline.cli:main"
 
 [tool.ruff]
 line-length = 100
