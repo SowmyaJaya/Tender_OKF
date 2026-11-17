@@ -1,0 +1,2 @@
+[console_scripts]
+tender-ingestion-pipeline = dynamic_pipeline.cli:main

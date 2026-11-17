@@ -112,4 +112,3 @@ def parse_document(pages_data: List[Any], document_meta: Dict[str, Any]) -> Dict
         "clauses": list(clauses_dict.values()),
         "unmapped_text": unmapped_text
     }
-Analyzing

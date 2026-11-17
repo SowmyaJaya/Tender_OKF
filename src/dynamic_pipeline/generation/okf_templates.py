@@ -32,4 +32,3 @@ def generate_frontmatter(metadata: Dict[str, Any], **kwargs) -> str:
     yaml_str = yaml.dump(frontmatter, default_flow_style=False, sort_keys=False)
     
     return f"---\n{yaml_str}---\n"
-Building python script to assemble document markdown

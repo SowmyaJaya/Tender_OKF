@@ -1,7 +1,7 @@
 import json
 import os
 from pathlib import Path
-from okf_templates import generate_frontmatter
+from .okf_templates import generate_frontmatter
 
 def render_markdown_table(table_data: dict) -> str:
     """
@@ -125,4 +125,3 @@ def process_and_save(tender_document: dict, output_base_dir: str = "data/OKF_bun
         f.write(md_content)
         
     return str(file_path)
-Building python script to assemble document markdown

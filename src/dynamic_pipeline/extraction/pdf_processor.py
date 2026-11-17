@@ -82,4 +82,3 @@ def extract_pages(pdf_path: str) -> List[PageData]:
         
     doc.close()
     return pages_data
-Extracting the requested Python code
